@@ -8,6 +8,9 @@ public class Etudiant implements Serializable{
 	private int id;
 
 	public Etudiant(){
+		this.nom="a";
+		this.prenom="b";
+		
 	}
 
 	public String getNom(){return nom;}
